@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-banner-client-side-solution",
+    "id": "3a1b15c0-5fc6-475e-8757-ae042e6ff2db",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": false,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "features": [
+      {
+        "title": "SP Banner",
+        "description": "Displays a banner in IE.",
+        "id": "1a0121a3-b7d5-47a0-90ef-3ab7e4a2543c",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-banner.sppkg"
+  }
+}
